@@ -1,0 +1,65 @@
+.container_bg{
+    margin: 5px auto;
+    background-color: #d2d7db;
+    width: 430px;
+    height: 560px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 35px;
+  }
+  #display{
+      height: 100px;
+      text-align: right;
+      font-size: 40px;
+      padding-top: 1px;
+      margin-bottom: 12px;
+  }
+  .screen{
+    border-style: outset;
+    background-color:whitesmoke;
+    margin-left: 15px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 8px;
+    overflow: hidden;
+  }
+  .operator{
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: #dde6e5;
+    border-radius: 10px;
+    border-style: outset;
+    float: left;
+    cursor: pointer;
+  }
+  .number{
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: #f5f7f6;
+    border-radius: 10%;
+    cursor: pointer;
+    float: left;
+    border-style: outset;
+  }
+  .equelOperator{
+    width: 330px;
+    height: 60px;
+    margin: 15px;
+    font-size: 50px;
+    background-color: #f5f7f6;
+    border-radius: 5%;
+    cursor: pointer;
+    float: left;
+    border-style: outset;
+  }
+  .operator:active, .number:active, .equelOperator:active{
+    font-size: 40px;
+  }
+  .operator:focus, .number:focus, .equelOperator:focus{
+    outline: 0;
+  }
